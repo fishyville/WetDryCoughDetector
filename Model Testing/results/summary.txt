@@ -1,0 +1,16 @@
+DRY/WET TEST
+threshold 0.48
+             pred    dry  pred    wet
+true    dry          162           68
+true    wet           38           32
+accuracy 0.647 | balanced acc 0.581 | ROC-AUC 0.654
+wet: precision 0.320  recall 0.457  F1 0.376 | dry recall (specificity) 0.704 | macro F1 0.565
+95% CI {'auc_95ci': (0.5856587180788094, 0.7178396072013093), 'balanced_acc_95ci': (0.5169172932330828, 0.6456567796610169)}
+
+DETECTOR TEST
+threshold 0.27
+                pred non-cough  pred     cough
+true non-cough            1090             189
+true     cough              63            2630
+accuracy 0.937 | balanced acc 0.914 | ROC-AUC 0.978
+cough: precision 0.933  recall 0.977  F1 0.954 | non-cough recall (specificity) 0.852 | macro F1 0.925

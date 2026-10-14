@@ -1,0 +1,8 @@
+# Core (allowed by lecturer)
+torch
+numpy
+
+# Live microphone input - CONFIRM WITH LECTURER before using
+# sounddevice
+
+# External tool (not pip): FFmpeg, used once to convert .webm/.ogg -> .wav
